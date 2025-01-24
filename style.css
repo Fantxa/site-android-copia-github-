@@ -1,0 +1,70 @@
+@charset "utf-8";
+@font-face {
+    font-family:rikos ;
+    src: url(rikos/RIKOS___.TTF);
+}
+@font-face {
+    font-family:cool;
+    src: url(rikos/coolvetica\ condensed\ rg.otf);
+}
+h2{
+    font-family: rikos;
+}
+h1{
+    font-family: rikos;
+}
+
+body{
+    background-color: rgb(245, 245, 204);
+}
+header{
+    background-image: linear-gradient(to top,rgb(44, 43, 43),darkgreen);
+    margin: -11px;
+    padding: 5px;
+
+}
+h1#titulo{
+    text-align: center;
+    color: white;
+    font-family: cool;
+    font-size: 40px;
+}
+p#subtitulo{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+nav > a{
+    color:rgb(89, 150, 89);
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: -11px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+nav > a:hover{
+background-color: rgba(144, 238, 144, 0.164);
+border-radius: 5px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    margin-top: 11px;
+    padding-top: 10px;
+}
+h2.titulos{
+    background-color: lightgreen;
+    color: rgb(0, 65, 0);
+}
+h1#titulo-de-começo{
+    color: rgb(1, 97, 1)
+}
+p > a{
+    text-decoration: none;
+    background-color: lightgreen;
+    padding: 2px;
+
+}
